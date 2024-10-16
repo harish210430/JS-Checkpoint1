@@ -62,7 +62,7 @@ showMessage(); // 'Hello,John'
 alert(userName); // 'John'
 
  8. What is a Anonymous Function give example of three functions.
-*/
+
 // Anonymous_Function Expre.: which does't have any name.
 
 // First
@@ -83,3 +83,26 @@ const multiplyTwoNums = function(numA, numB) {
 }
 console.log(multiplyTwoNums(8, 4));
 
+9. Can function declaration be a Anonymous Function? Explain
+
+//  'Yes' it can be.
+const add = function(a, b, c) {
+    return a + b + c;
+}
+add(21, 0, 9);
+
+ 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that.
+*/
+function convertToString(){} 
+function getNumber(){}
+function calAge(){}
+function findName(){}
+function calSalary(){}
+
+// Functions are Actions which perform a specific task, Make sure function_name is brief and accurate and describe what fuction does/performing.
+// prefix what are we using (like: get, set, cal, convert etc.), vo sabhi team members use kar rahe Ho And Sabhi ke liye un prefix ka same meanig Ho.
+// For instance start with 'show' usually show something.
+
+/* Function start with....
+  "get" return a value, "calC" calculate something, "create" create something, "check" check something and return boolean value.
+*/
