@@ -32,9 +32,9 @@ function sum(a, b) {
 function sayHello(name) {
     return `Hello ${name}`;
 }
-*/
 
-// 6. What will be the output of the function below and why?
+
+ 6. What will be the output of the function below and why?
 
 let userName = 'John';
 
@@ -44,4 +44,42 @@ function showMessage() {
 }
 
 showMessage();
-// O/P: it will return "Hello, John"
+// O/P: it will return "Hello, John" Becoz userName is a Public Scope variable So it can accessable everyWhere.
+
+ 7. What will be the output for Output1 Output2 and Output3 in the code below.
+
+let userName = 'John';
+
+function showMessage() {
+  let message = 'Hello, ' + userName;
+  return message;
+}
+
+alert(userName); // 'John'
+
+showMessage(); // 'Hello,John'
+
+alert(userName); // 'John'
+
+ 8. What is a Anonymous Function give example of three functions.
+*/
+// Anonymous_Function Expre.: which does't have any name.
+
+// First
+const square = function(arg1) {
+    return arg1 * arg1;
+}  
+console.log(square(4));
+
+// Second
+const subTwoNumbers = function(num1, num2) {
+    return num1 - num2;
+}
+console.log(subTwoNumbers(7, 9));
+
+// Three
+const multiplyTwoNums = function(numA, numB) {
+    return numA * numB;
+}
+console.log(multiplyTwoNums(8, 4));
+
